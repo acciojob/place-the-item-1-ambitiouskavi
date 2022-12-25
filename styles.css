@@ -1,5 +1,14 @@
 
 /* Your CSS Code here. */
+.flex-container
+  {
+    height:50vh;
+    width:100wh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
 
   .box{
     height:40px;
@@ -9,14 +18,4 @@
     background-color: DodgerBlue;
 
   }
-  .flex-container
-  {
-    height:50vh;
-    width:100wh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    align-items: center;
-
-  }
+  
