@@ -1,28 +1,21 @@
 
 /* Your CSS Code here. */
-body {
+
+  .box{
+    height:40px;
+    width:25vw;
+    border:1px solid black;
+    padding:10px;
+
+  }
+  .container
+  {
+    height:50vh;
+    width:100wh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: DodgerBlue;
+    align-items: center;
 
-  }
-  #d1{
-    height:100px;
-    width:100px;
-    background-color: red;
-  }
-  #d2{
-    height:100px;
-    width:100px;
-    background-color: green;
-  }
-  #d3{
-    height:100px;
-    width:100px;
-    background-color: blue;
-  }
-  #d4{
-    height:100px;
-    width:100px;
-    background-color: black;
   }
