@@ -6,16 +6,17 @@
     width:25vw;
     border:1px solid black;
     padding:10px;
+    background-color: DodgerBlue;
 
   }
-  .container
+  .flex-container
   {
     height:50vh;
     width:100wh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: DodgerBlue;
+
     align-items: center;
 
   }
